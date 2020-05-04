@@ -1,6 +1,6 @@
 {
   "name": "webrtc-signaling-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a helper package which is needed to be installed if webrtc-signaling-server is installed",
   "main": "index.js",
   "scripts": {
