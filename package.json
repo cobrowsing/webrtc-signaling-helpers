@@ -1,0 +1,35 @@
+{
+  "name": "webrtc-signaling-helpers",
+  "version": "1.0.0",
+  "description": "This is a helper package which is needed to be installed if webrtc-signaling-server is installed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technicalheist/webrtc-signaling-helpers.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "Signaling",
+    "Signaling",
+    "Technical",
+    "Heist",
+    "Technicalheist.com",
+    "Web",
+    "RTC",
+    "Signaling",
+    "server",
+    "helper"
+  ],
+  "author": "TechnicalHeist.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technicalheist/webrtc-signaling-helpers/issues"
+  },
+  "homepage": "https://github.com/technicalheist/webrtc-signaling-helpers#readme",
+  "dependencies": {
+    "socket.io": "latest"
+  }
+}
