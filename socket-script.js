@@ -3,7 +3,7 @@
 // Documentation  - https://github.com/technicalheist/webrtc-signaling-helpers
 
 const ioServer = require('socket.io');
-exports.socket = (config, httpApp) => {
+exports.socket = (signalingServer,config,httpApp) => {
     ioServer(httpApp).on('connection', function(socket) {
         signalingServer.addSocket(socket, config);
     
